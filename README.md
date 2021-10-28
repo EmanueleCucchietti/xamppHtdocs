@@ -1,2 +1,4 @@
-# xamppHtdocs
-Xampp htdocs - php Tests
+# Xampp HtDocs
+Php - MySql
+Html - Css - Bootstrap
+Javascript
