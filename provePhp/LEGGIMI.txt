@@ -1,0 +1,2 @@
+per usare php correttamente tramite xampp è necessario aprire il file attraverso localhost oppure l'ip
+non utilizzare la directory del file perchè sennò non verrà preelaborato

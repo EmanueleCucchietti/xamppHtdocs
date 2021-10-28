@@ -1,0 +1,137 @@
+/* PreMade */
+
+body {
+    background-position: relative !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: 400% 400% !important;
+    background: linear-gradient(-45deg,#612ae0, #535fe6, #19a1d3, #19a1d3, #535fe6, #612ae0);
+    animation: change 40s cubic-bezier(.39,0,.63,1.01) infinite !important; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.height {
+    height: 100vh
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color: #1c1e21;
+    color: #fff
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5855e7;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 50%
+}
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px
+}
+
+.form-control {
+    height: 50px;
+    background-color: #1c1e21;
+    text-indent: 24px;
+    font-size: 15px
+}
+
+.form-control:focus {
+    background-color: #25272a;
+    box-shadow: none;
+    color: #fff;
+    color: #c97d7d;
+    border-color: #4f63e7
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.signup {
+    height: 50px;
+    font-size: 14px
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.social:hover {
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+#errorDiv{
+    display: none;
+}
+
+/* Custom */
+
+.divResponseError {
+    display: none;
+    background-color: #e32d40;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: #730f16;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.divResponseSuccess {
+    display: none;
+    background-color: #2de35a;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: #0e6133;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.aLink{
+    color: #730F16;
+}
+.aLink:hover{
+    color: #58060c;
+}
+
+@font-face {
+    font-family: phenomenaFont;
+    src: url(../font/Phenomena-Regular.otf);
+}
+@font-face {
+    font-family: phenomenaFont;
+    src: url(../font/Phenomena-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: phenomenaFont;
+    src: url(../font/Phenomena-Thin.otf);
+    font-weight: lighter;
+}

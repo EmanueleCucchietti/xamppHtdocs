@@ -1,0 +1,8 @@
+nome: prova
+cognome: db
+provadb1245@libero.it / provadb1245@gmail.com
+pass: Q2@Z!J2rvT
+
+data nascita: 01/01/1991
+comune di residenza: aosta
+genere: uomo
