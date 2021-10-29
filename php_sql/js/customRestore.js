@@ -15,6 +15,7 @@ $(document).ready(function () {
         dataType: "json",
 
         success: function (msg) {
+          console.log(msg);
           if (msg['response'] == 'success') {
             btnResponse.style.display = "block";
             btnResponse.className = '';
@@ -34,6 +35,7 @@ $(document).ready(function () {
         },
 
         error: function (msg) {
+          console.log(msg);
           if (msg['response'] == 'failedEmailNotFound') {
             btnResponse.style.display = "block";
             btnResponse.innerHTML = "L'Email inserita non appartiene a nessun Account";

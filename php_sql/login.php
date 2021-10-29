@@ -37,9 +37,9 @@ session_start();
                         <h5 class="mt-3">Accedi Ora</h5> 
                         <div id="btnResponse" class="divResponseError">Credenziali Errate, <a href='/php_sql//restorer.php' class="aLink">hai dimenticato la password?</a>
                         </div>
-                        <div class="form-input" id="divUser" style="margin-bottom: 5px;"> <i class="fa fa-user"></i> <input id="txtUsername" type="text" class="form-control" placeholder="Username" name="user"> </div>
+                        <div class="form-input" id="divUser" style="margin-bottom: 5px;"> <i class="fa fa-user"></i> <input id="txtUsername" type="text" class="form-control" placeholder="Username" name="user" autocomplete="off"> </div>
                         <div style="background-color: inherit;border: none; color: #c97d7d; display:none" id="errorUser">Inserire Username</div>
-                        <div class="form-input" id="divPass" style="margin-bottom: 5px;"> <i class="fa fa-lock"></i> <input id="txtPassword" type="password" class="form-control" placeholder="Password" name="password"> </div>
+                        <div class="form-input" id="divPass" style="margin-bottom: 5px;"> <i class="fa fa-lock"></i> <input id="txtPassword" type="password" class="form-control" placeholder="Password" name="password" autocomplete="off"> </div>
                         <div style="background-color: inherit;border: none; color: #c97d7d; display:none" id="errorPass">Inserire Password</div>
                         
                     <input class="btn btn-primary mt-4 signup" type="button" value="Accedi" id="btnSubmit">        

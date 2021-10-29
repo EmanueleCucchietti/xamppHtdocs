@@ -45,7 +45,10 @@
                     //se si imposta destinatario sè stessi, gmail metterà come nome "me" anche se si cambia da qua il setFrom
                     //$mail -> setFrom($email,$email);
                     $mail -> setFrom('provadb1245@gmail.com',"Restorer Email");
-                    $mail -> Body = "Plain Text Test Email".$email.": questa è l'email";
+                    $templateMail = file_get_contents($_SERVER["DOCUMENT_ROOT"]."/php_sql/class/template-mail.html");
+                    //$templateMail = str_replace( "__NOME__", $nome, $templateMail );
+                    //$templateMail = str_replace( "__COGNOME__", $cognome, $templateMail );
+                    $mail -> Body = "test";
                     $mail -> isHTML(true);
                     $mail -> addAddress($email);
                     $mail->SMTPDebug = 2;
@@ -57,13 +60,14 @@
                         'allow_self_signed' => true // inutile
                         )
                         );
-                        /*
+                        
                     var_dump($mail);
                     if (!$mail->send())
-                    echo "Mailer Error -> " . $mail->ErrorInfo;
+                        echo "Mailer Error -> " . $mail->ErrorInfo;
                     else
-                    echo "Message sent!";
-                    */
+                        echo "Message sent!";
+                    echo 'test';
+                    
                     echo json_encode(array('response'=>'success'));
                 }
                 else
